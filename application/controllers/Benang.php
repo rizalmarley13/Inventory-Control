@@ -18,4 +18,7 @@ class Benang extends CI_Controller {
 		$isi['subjudul'] = 'Data Benang';
 		$this->load->view('home/view_home.php',$isi);
 	}
+	public function tampil_formbenang()
+	{
+	}
 }
